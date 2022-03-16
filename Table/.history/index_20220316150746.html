@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>21115053120156 _ Ddangwj Vawn Trung</title>
+    <style>
+      /* ============ Reset CSS ============*/
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* ============ Global ============*/
+      .wrapper {
+        max-width: 1200px;
+        padding: 0 15px;
+        margin: 50px auto;
+      }
+
+      /* ============ Table ============*/
+      .table__name {
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        color: rgba(15, 43, 201, 0.829);
+        margin-bottom: 30px;
+      }
+      table {
+        width: 80%;
+        margin: 0 auto;
+        border-collapse: collapse;
+        font-size: 22px;
+        line-height: 1.5;
+      }
+      thead {
+        background-color: rgb(123, 180, 255);
+        font-weight: bold;
+        color: white;
+        text-align: center;
+      }
+      tbody tr td:not(:first-child) {
+        text-align: center;
+      }
+      tfoot {
+        font-weight: bold;
+        text-align: right;
+      }
+      tfoot tr td:first-child {
+        text-align: center;
+      }
+      td {
+        /* padding: 60px; */
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="table">
+        <h2 class="table__name">Kết quả học tập</h2>
+        <table>
+          <thead>
+            <tr>
+              <td rowspan="2">Họ và tên</td>
+              <td colspan="2">Năm sinh</td>
+              <td rowspan="2">Điểm TB</td>
+              <td rowspan="2">Xếp loại</td>
+            </tr>
+            <tr>
+              <td>Nam</td>
+              <td>Nữ</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Lê Thanh Xuân</td>
+              <td></td>
+              <td>1989</td>
+              <td>8.8</td>
+              <td>Giỏi</td>
+            </tr>
+            <tr>
+              <td>Phan Thế Hạ</td>
+              <td>1988</td>
+              <td></td>
+              <td>7.5</td>
+              <td>Khá</td>
+            </tr>
+            <tr>
+              <td>Trần Hòa Thu</td>
+              <td></td>
+              <td>1990</td>
+              <td>9.5</td>
+              <td>Xuất sắc</td>
+            </tr>
+            <tr>
+              <td>Lưu Thế Mạc</td>
+              <td>1991</td>
+              <td></td>
+              <td>5.5</td>
+              <td>Trung Bình</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">Tổng số sinh viên đạt:</td>
+              <td colspan="2">3 Sinh viên</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+    </div>
+  </body>
+</html>
