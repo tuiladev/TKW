@@ -1,0 +1,22 @@
+body {
+   font-family: sans-serif;
+}
+.news {
+   width: 45%;
+   margin: 0 auto;
+   clear: both;
+}
+.news__title {
+   font-size: 24px;
+   margin-bottom: 12px;
+}
+.news__img {
+   max-width: 100%;
+   object-fit: cover;
+   margin-right: 15px;
+}
+.news__desc {
+   font-size: 20px;
+   line-height: 1.5;
+   margin: 0;
+}

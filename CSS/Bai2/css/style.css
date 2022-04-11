@@ -1,0 +1,55 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+body {
+   font-family: sans-serif;
+   padding: 20px 0;
+}
+.news {
+   width: 730px;
+   margin: 0 auto;
+   padding-bottom: 5%;
+   border-bottom: 1px solid #ddd;
+}
+.news__title {
+   font-size: 24px;
+   margin-bottom: 12px;
+   padding-top: 15px;
+   clear: both;
+}
+.news__img {
+   width: 250px;
+   height: 150px;
+   margin-right: 15px;
+   float: left;
+}
+.news__desc {
+   font-size: 20px;
+   line-height: 1.5;
+   margin: 0;
+}
+
+/*
+   Sử dụng grid
+   Bỏ lớp div.news__content bao ngoài và áp dụng thêm
+   .news {
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      gap: 15px;
+   }
+   .news__title {
+      grid-column: span 2;
+   }
+*/
+
+/*
+   Su dung flex-box
+   .news {
+      padding-bottom: 15px;
+   }
+   .news__content {
+      display: flex;
+      column-gap: 15px;
+   }
+*/

@@ -1,0 +1,24 @@
+body {
+   font-family: sans-serif;
+}
+.new {
+   width: 60%;
+   margin: 0 auto;
+   padding-bottom: 20px;
+   border-bottom: 1px solid #eee;
+}
+.new__title {
+   font-size: 24px;
+   margin-bottom: 12px;
+}
+.new__img {
+   width: 250px;
+   height: 160px;
+   object-fit: cover;
+   text-align: left;
+}
+.new__desc {
+   font-size: 20px;
+   line-height: 1.5;
+   margin: 0;
+}
